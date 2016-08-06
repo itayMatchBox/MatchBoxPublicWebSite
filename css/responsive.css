@@ -1,0 +1,275 @@
+@media screen and (min-width:1800px) and (max-width:3000px)
+{
+	.top_part::after 
+	{
+		height: 100%;
+		transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		-webkit-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+		width: 104%;
+	}
+	.why_worth::after 
+	{
+		height: 115%;
+		transform: rotate(-20deg);
+		-moz-transform: rotate(-20deg);
+		-webkit-transform: rotate(-20deg);
+		-ms-transform: rotate(-20deg);
+		-o-transform: rotate(-20deg);
+	}
+}
+@media screen and (max-width:1199px)
+{
+	.logo img 
+	{
+		height: 270px;
+	}
+	.top_headings 
+	{
+		margin-top: 120px;
+	}
+	.why_worth_text h1 
+	{
+		font-size: 40px;
+	}
+	.why_worth 
+	{
+		padding: 60px 0 130px;
+	}
+}
+@media screen and (max-width:991px)
+{
+	.top_part h2 
+	{
+		font-size: 32px;
+		line-height: 50px;
+	}
+	.top_part h1 
+	{
+		font-size: 56px;
+		line-height: 50px;
+	}
+	.top_headings 
+	{
+		margin-top: 80px;
+	}
+	.logo img 
+	{
+		height: 200px;
+	}
+	.footer 
+	{
+		padding: 50px 0 150px;
+		position: relative;
+	}
+	.why_worth_text p 
+	{
+		line-height: 17px;
+	}
+	.why_worth_text h1, .match_about h1 
+	{
+		font-size: 36px;
+	}
+	.top_part 
+	{
+		height: 580px;
+	}
+}
+@media screen and (max-width:767px)
+{
+	/*.top_part::after, .footer::before
+	{
+		display:none;
+	}*/
+	.top_part::after {
+  border-bottom-left-radius: 50px;
+  height: 437px;
+    left: 24%;
+    right: -144px;
+    top: -145px;
+  transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  width: auto;
+}
+	.top_part
+	{
+		text-align:center;
+	}
+	.top_headings 
+	{
+		margin: 40px 0;
+	}
+	.left_about aside 
+	{
+		margin-bottom: 50px;
+	}
+	.left_about p::after
+	{
+		left:48%;
+	}
+	.match_about, .services_area, .why_matchbox, .partners
+	{
+		padding: 30px 0;
+	}
+	.services_boxes aside.col-sm-3
+	{
+		margin-bottom:25px;
+	}
+	.why_worth 
+	{
+		padding: 15px 0 60px;
+	}
+	.why_matchbox .media.last_media
+	{
+		margin-top:45px;
+	}
+	.top_part aside, .why_worth aside
+	{
+		float: none !important;
+	}
+	.left_about p::after, .end_box
+	{
+		display:none;
+	}
+	.image_circle 
+	{
+		height: 74px;
+		width: 74px;
+		line-height:60px;
+	}
+	.image_circle img 
+	{
+		max-height: 40px;
+	}
+	.services_boxes aside.col-sm-3
+	{
+		padding:0 10px;
+	}
+	.services_boxes p span
+	{
+		width:8px;
+		height:8px;
+	}
+	.services_boxes p 
+	{
+		font-size: 13px;
+		line-height: 19px;
+		padding-right: 15px;
+	}
+	h1 
+	{
+		font-size: 28px;
+	}
+	.contact_form 
+	{
+		margin-top: 100px;
+	}
+	.footer::before {
+  height: 383px;
+  left: -580px;
+  right: 10px;
+  top: -261px;
+  width: auto;
+  border-bottom-right-radius: 50px;
+}
+
+.why_worth aside.why_worth_text{
+  height: 200px;
+  margin-bottom: 30px;
+}
+.why_worth::after {
+  border-bottom-left-radius: 50px;
+  content: "";
+  height: 370px;
+  left: 5px;
+  right: -162px;
+  top: -184px;
+  width: auto;
+  transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+}
+.why_matchbox .media-right {
+  min-width: 95px;
+}
+.match_about .pull-right 
+{
+	float: none !important;
+	margin-bottom: 30px;
+}
+.match_about h3
+{
+	text-align:right;
+}
+body 
+{
+	font-size: 14px;
+	line-height: 26px;
+}
+.service_part2 h3 
+{
+	margin: 10px 0 20px;
+}
+.why_worth_text h1 
+{
+	font-size: 30px;
+	padding-top: 15px;
+}
+.why_worth_text p 
+{
+	font-size: 12px;
+}
+}
+@media screen and (max-width:600px)
+{
+	
+.top_part::after 
+{
+	height: 415px;
+	left: 20%;
+	right: -72px;
+	top: -102px;
+}
+	.top_part h2 
+	{
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.top_part h1 
+	{
+		font-size: 44px;
+		line-height: 50px;
+	}
+	.menu
+	{
+		width:100%;
+		right:-100%;
+	}
+	.menu ul 
+	{
+		padding: 50px;
+	}
+	.menu ul li 
+	{
+		margin-bottom: 10px;
+	}
+	.logo 
+	{
+		display: block;
+		margin-top: 70px;
+	}
+}
+@media screen and (max-width:479px)
+{
+	.top_part::after {
+  height: 430px;
+    left: 0;
+}
+}
